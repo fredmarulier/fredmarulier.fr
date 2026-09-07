@@ -1,7 +1,4 @@
-FRED MARULIER — SITE V3
+FRED MARULIER — SITE V4
 
-Contenu prêt pour GitHub Pages :
-- index.html
-- dossier images avec les 10 photographies
-
-Important : sur GitHub, téléversez le CONTENU de ce dossier (index.html + dossier images), pas le fichier ZIP lui-même.
+Nouvelle image d'accueil validée + galerie de 20 photographies.
+Pour GitHub Pages : téléverser le CONTENU de ce dossier (index.html + dossier images + README.txt).

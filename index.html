@@ -1,14 +1,69 @@
-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fred Marulier Photographie</title><meta name="description" content="Photographies du Pic du Midi d'Ossau et des Pyrénées par Fred Marulier."><style>
-*{box-sizing:border-box}body{margin:0;background:#0b0b0b;color:#f4f4f4;font-family:Arial,Helvetica,sans-serif}header{min-height:78vh;background:linear-gradient(0deg,rgba(0,0,0,.55),rgba(0,0,0,.1)),url('images/ossau-08.jpeg') center/cover;display:flex;align-items:flex-end;padding:7vw}h1{font-size:clamp(2.4rem,7vw,6rem);margin:0;letter-spacing:.04em}.tag{font-size:clamp(1rem,2vw,1.5rem);margin:.5rem 0 0}.intro{max-width:900px;margin:auto;padding:55px 24px;text-align:center;line-height:1.7}.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;padding:10px}.card{position:relative;overflow:hidden;background:#151515}.card img{width:100%;height:48vw;max-height:620px;object-fit:cover;display:block;transition:.4s}.card:hover img{transform:scale(1.015)}.label{position:absolute;bottom:12px;left:14px;background:rgba(0,0,0,.62);padding:7px 10px;font-size:.9rem}.contact{text-align:center;padding:70px 24px;background:#151515}.contact a{display:inline-block;margin-top:15px;padding:14px 22px;border:1px solid #eee;color:#fff;text-decoration:none}.contact a:hover{background:#fff;color:#111}footer{text-align:center;padding:28px;color:#aaa;font-size:.85rem}@media(max-width:700px){header{min-height:65vh}.gallery{grid-template-columns:1fr}.card img{height:68vw}}
-</style></head><body><header><div><h1>FRED MARULIER</h1><p class="tag">Photographe • Pyrénées • Pic du Midi d’Ossau</p></div></header><section class="intro"><h2>L’Ossau, mon point de repère</h2><p>Une sélection de photographies consacrées au Pic du Midi d’Ossau et aux paysages des Pyrénées. Pour toute demande de tirage, indiquez simplement le numéro de la photographie dans votre e-mail.</p></section><main class="gallery">
-<figure class='card'><img src='images/ossau-01.jpeg' alt='Pic du Midi d’Ossau — photographie 01' loading='lazy'><figcaption class='label'>Ossau 01</figcaption></figure>
-<figure class='card'><img src='images/ossau-02.jpeg' alt='Pic du Midi d’Ossau — photographie 02' loading='lazy'><figcaption class='label'>Ossau 02</figcaption></figure>
-<figure class='card'><img src='images/ossau-03.jpeg' alt='Pic du Midi d’Ossau — photographie 03' loading='lazy'><figcaption class='label'>Ossau 03</figcaption></figure>
-<figure class='card'><img src='images/ossau-04.jpeg' alt='Pic du Midi d’Ossau — photographie 04' loading='lazy'><figcaption class='label'>Ossau 04</figcaption></figure>
-<figure class='card'><img src='images/ossau-05.jpeg' alt='Pic du Midi d’Ossau — photographie 05' loading='lazy'><figcaption class='label'>Ossau 05</figcaption></figure>
-<figure class='card'><img src='images/ossau-06.jpeg' alt='Pic du Midi d’Ossau — photographie 06' loading='lazy'><figcaption class='label'>Ossau 06</figcaption></figure>
-<figure class='card'><img src='images/ossau-07.jpeg' alt='Pic du Midi d’Ossau — photographie 07' loading='lazy'><figcaption class='label'>Ossau 07</figcaption></figure>
-<figure class='card'><img src='images/ossau-08.jpeg' alt='Pic du Midi d’Ossau — photographie 08' loading='lazy'><figcaption class='label'>Ossau 08</figcaption></figure>
-<figure class='card'><img src='images/ossau-09.jpeg' alt='Pic du Midi d’Ossau — photographie 09' loading='lazy'><figcaption class='label'>Ossau 09</figcaption></figure>
-<figure class='card'><img src='images/ossau-10.jpeg' alt='Pic du Midi d’Ossau — photographie 10' loading='lazy'><figcaption class='label'>Ossau 10</figcaption></figure>
-</main><section class="contact"><h2>Demande de tirage</h2><p>Vous souhaitez commander un tirage ? Envoyez-moi le numéro de la photo et le format souhaité.</p><a href="mailto:marulier64@yahoo.com?subject=Demande%20de%20tirage%20photo">marulier64@yahoo.com</a></section><footer>© Fred Marulier Photographie — Tous droits réservés</footer></body></html>
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fred Marulier — Photographe | Pic du Midi d’Ossau</title>
+<meta name="description" content="Photographies de Fred Marulier consacrées au Pic du Midi d’Ossau et aux paysages des Pyrénées. Demandes de tirages par e-mail.">
+<style>
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:#090909;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}
+.hero{min-height:100svh;background:#050505;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.hero img{width:100%;height:100svh;object-fit:cover;object-position:center;display:block}
+.intro{max-width:900px;margin:auto;padding:70px 24px 45px;text-align:center}
+.intro h1{font-size:clamp(28px,4vw,48px);margin:0 0 16px}
+.intro p{color:#c8c8c8;line-height:1.7;margin:auto;max-width:720px}
+.gallery{max-width:1400px;margin:auto;padding:20px 18px 80px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+.photo{margin:0;background:#111;overflow:hidden}
+.photo img{width:100%;height:420px;object-fit:cover;display:block;transition:transform .35s ease}
+.photo:hover img{transform:scale(1.015)}
+.photo figcaption{padding:12px 14px;color:#aaa;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+.contact{text-align:center;padding:75px 24px 90px;background:#111}
+.contact h2{font-size:32px;margin:0 0 15px}
+.contact p{color:#c8c8c8;line-height:1.7}
+.contact a{display:inline-block;margin-top:12px;padding:14px 22px;border:1px solid #eee;color:white;text-decoration:none}
+footer{padding:24px;text-align:center;color:#777;font-size:13px}
+@media(max-width:760px){
+ .hero{min-height:auto} .hero img{height:auto;min-height:0;object-fit:contain}
+ .gallery{grid-template-columns:1fr} .photo img{height:auto;max-height:none;object-fit:contain}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <img src="images/accueil.png" alt="Fred Marulier — Photographe, Pyrénées, Pic du Midi d’Ossau">
+</header>
+<section class="intro">
+  <h1>L’Ossau, mon point de repère</h1>
+  <p>Une sélection de photographies consacrées au Pic du Midi d’Ossau et aux paysages des Pyrénées. Pour toute demande de tirage, contactez-moi directement par e-mail.</p>
+</section>
+<main class="gallery">
+<figure class="photo"><img src="images/ossau-01.jpeg" alt="Pic du Midi d’Ossau — photographie 01" loading="lazy"><figcaption>Ossau 01</figcaption></figure>
+<figure class="photo"><img src="images/ossau-02.jpeg" alt="Pic du Midi d’Ossau — photographie 02" loading="lazy"><figcaption>Ossau 02</figcaption></figure>
+<figure class="photo"><img src="images/ossau-03.jpeg" alt="Pic du Midi d’Ossau — photographie 03" loading="lazy"><figcaption>Ossau 03</figcaption></figure>
+<figure class="photo"><img src="images/ossau-04.jpeg" alt="Pic du Midi d’Ossau — photographie 04" loading="lazy"><figcaption>Ossau 04</figcaption></figure>
+<figure class="photo"><img src="images/ossau-05.jpeg" alt="Pic du Midi d’Ossau — photographie 05" loading="lazy"><figcaption>Ossau 05</figcaption></figure>
+<figure class="photo"><img src="images/ossau-06.jpeg" alt="Pic du Midi d’Ossau — photographie 06" loading="lazy"><figcaption>Ossau 06</figcaption></figure>
+<figure class="photo"><img src="images/ossau-07.jpeg" alt="Pic du Midi d’Ossau — photographie 07" loading="lazy"><figcaption>Ossau 07</figcaption></figure>
+<figure class="photo"><img src="images/ossau-08.jpeg" alt="Pic du Midi d’Ossau — photographie 08" loading="lazy"><figcaption>Ossau 08</figcaption></figure>
+<figure class="photo"><img src="images/ossau-09.jpeg" alt="Pic du Midi d’Ossau — photographie 09" loading="lazy"><figcaption>Ossau 09</figcaption></figure>
+<figure class="photo"><img src="images/ossau-10.jpeg" alt="Pic du Midi d’Ossau — photographie 10" loading="lazy"><figcaption>Ossau 10</figcaption></figure>
+<figure class="photo"><img src="images/ossau-11.jpeg" alt="Pic du Midi d’Ossau — photographie 11" loading="lazy"><figcaption>Ossau 11</figcaption></figure>
+<figure class="photo"><img src="images/ossau-12.jpeg" alt="Pic du Midi d’Ossau — photographie 12" loading="lazy"><figcaption>Ossau 12</figcaption></figure>
+<figure class="photo"><img src="images/ossau-13.jpeg" alt="Pic du Midi d’Ossau — photographie 13" loading="lazy"><figcaption>Ossau 13</figcaption></figure>
+<figure class="photo"><img src="images/ossau-14.jpeg" alt="Pic du Midi d’Ossau — photographie 14" loading="lazy"><figcaption>Ossau 14</figcaption></figure>
+<figure class="photo"><img src="images/ossau-15.jpeg" alt="Pic du Midi d’Ossau — photographie 15" loading="lazy"><figcaption>Ossau 15</figcaption></figure>
+<figure class="photo"><img src="images/ossau-16.jpeg" alt="Pic du Midi d’Ossau — photographie 16" loading="lazy"><figcaption>Ossau 16</figcaption></figure>
+<figure class="photo"><img src="images/ossau-17.jpeg" alt="Pic du Midi d’Ossau — photographie 17" loading="lazy"><figcaption>Ossau 17</figcaption></figure>
+<figure class="photo"><img src="images/ossau-18.jpeg" alt="Pic du Midi d’Ossau — photographie 18" loading="lazy"><figcaption>Ossau 18</figcaption></figure>
+<figure class="photo"><img src="images/ossau-19.jpeg" alt="Pic du Midi d’Ossau — photographie 19" loading="lazy"><figcaption>Ossau 19</figcaption></figure>
+<figure class="photo"><img src="images/ossau-20.jpeg" alt="Pic du Midi d’Ossau — photographie 20" loading="lazy"><figcaption>Ossau 20</figcaption></figure>
+</main>
+<section class="contact">
+  <h2>Demande de tirage</h2>
+  <p>Indiquez simplement le numéro de la photographie qui vous intéresse (Ossau 01, Ossau 02, etc.).</p>
+  <a href="mailto:marulier64@yahoo.com?subject=Demande%20de%20tirage%20photo">marulier64@yahoo.com</a>
+</section>
+<footer>© Fred Marulier — Photographie</footer>
+</body>
+</html>
